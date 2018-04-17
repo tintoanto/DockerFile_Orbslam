@@ -6,12 +6,12 @@ RUN apt-key update && apt-get update
 RUN apt-get install -y build-essential perl python git wget
 RUN apt-get install -y libgl1-mesa-dev
 RUN apt-get install -y cmake
-RUN apt-get install libjpeg-dev libpng-dev libtiff-dev libdc1394-22-dev libv4l-dev
-RUN apt-get install libavcodec-dev libavformat-dev libavutil-dev libpostproc-dev libswscale-dev libavdevice-dev libsdl-dev
-RUN apt-get install libgtk2.0-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev
-RUN apt-get install libeigen3-dev nano
-RUN apt-get install libblas-dev liblapack-dev
-RUN apt-get install libgl1-mesa-dev libglew-dev
+RUN apt-get install -y libjpeg-dev libpng-dev libtiff-dev libdc1394-22-dev libv4l-dev
+RUN apt-get install -y libavcodec-dev libavformat-dev libavutil-dev libpostproc-dev libswscale-dev libavdevice-dev libsdl-dev
+RUN apt-get install -y libgtk2.0-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev
+RUN apt-get install -y libeigen3-dev nano
+RUN apt-get install -y libblas-dev liblapack-dev
+RUN apt-get install -y libgl1-mesa-dev libglew-dev
 
 
 #install qt
